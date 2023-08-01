@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: flask-app-container
-    image: rajdeep1311/flask-cpu-memory-app:latest  # Replace with your actual image name and version
+    image: dh018/flask-app:latest  # Replace with your actual image name and version
     ports:
     - containerPort: 5000  # Port on which the Flask app listens
